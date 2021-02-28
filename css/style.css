@@ -21,9 +21,8 @@ body {
 }
 
 /* Place text in the middle of the image */
-.returnDataDisplayBox .userInputBox .appTitleBox {
+.returnDataDisplayBox{
     display: flex;
-    flex-direction: column;
     align-content: center;
 }
 
@@ -35,4 +34,15 @@ body {
 .appTitleBox {
     background-color: linear-gradient(rgb(5, 59, 77, 0.9), rgba(109, 124, 129, 0.1));
     color: #202833;
+    display: flex;
+    justify-content: center;
+}
+
+main p {
+    color: #FFE401;
+}
+
+.userInputBox {
+    display: flex;
+    justify-content: center;
 }
